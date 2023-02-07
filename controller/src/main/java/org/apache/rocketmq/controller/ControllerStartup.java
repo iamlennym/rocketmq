@@ -57,7 +57,7 @@ public class ControllerStartup {
         try {
             ControllerManager controller = createControllerManager(args);
             start(controller);
-            String tip = "The Controller Server boot success. serializeType=" + RemotingCommand.getSerializeTypeConfigInThisServer();
+            String tip = "Hello WORLD!!! The Controller Server boot success. serializeType=" + RemotingCommand.getSerializeTypeConfigInThisServer();
             log.info(tip);
             System.out.printf("%s%n", tip);
             return controller;
