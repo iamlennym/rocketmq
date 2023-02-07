@@ -69,6 +69,8 @@ public class ClientConfig {
     private int mqClientApiTimeout = 3 * 1000;
 
     private LanguageCode language = LanguageCode.JAVA;
+    
+    // Random Comment
 
     /**
      * Enable stream request type will inject a RPCHook to add corresponding request type to remoting layer.
