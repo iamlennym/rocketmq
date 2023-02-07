@@ -13,6 +13,7 @@
 
 It offers a variety of features:
 
+
 * Messaging patterns including publish/subscribe, request/reply and streaming
 * Financial grade transactional message
 * Built-in fault tolerance and high availability configuration options base on [DLedger Controller](docs/cn/controller/quick_start.md)
